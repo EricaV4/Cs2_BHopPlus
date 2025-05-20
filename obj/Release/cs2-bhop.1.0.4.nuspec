@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>cs2-bhop</id>
+    <version>1.0.4</version>
+    <authors>Jesewe</authors>
+    <description>Package Description</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net6.0-windows10.0.17763" />
+    </dependencies>
+    <contentFiles>
+      <files include="any/net6.0-windows10.0.17763/src/img/icon.ico" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\Users\Administrator\source\repos\cs2-bhop-main\bin\Release\net6.0-windows10.0.17763.0\win-x64\cs2-bhop.runtimeconfig.json" target="lib\net6.0-windows10.0.17763\cs2-bhop.runtimeconfig.json" />
+    <file src="C:\Users\Administrator\source\repos\cs2-bhop-main\bin\Release\net6.0-windows10.0.17763.0\win-x64\cs2-bhop.dll" target="lib\net6.0-windows10.0.17763\cs2-bhop.dll" />
+    <file src="C:\Users\Administrator\source\repos\cs2-bhop-main\src\img\icon.ico" target="content\src\img\icon.ico" />
+    <file src="C:\Users\Administrator\source\repos\cs2-bhop-main\src\img\icon.ico" target="contentFiles\any\net6.0-windows10.0.17763\src\img\icon.ico" />
+  </files>
+</package>
