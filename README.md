@@ -1,3 +1,3 @@
-# BHopPlus
-for cs2 AutoBHop 
-Auto Update Offset
+# BHop
+A BHop For memesnese
+use Extreme Injector to Cs2
