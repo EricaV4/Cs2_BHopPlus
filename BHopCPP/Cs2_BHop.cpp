@@ -54,12 +54,9 @@ DWORD Main(void*)
                 continue;
             }
 
-            auto health = *reinterpret_cast<uintptr_t*>(localplayer_pawn + cs2_dumper::schemas::client_dll::C_BaseEntity::m_iHealth);
+            auto health = *reinterpret_cast<int*>(localplayer_pawn + cs2_dumper::schemas::client_dll::C_BaseEntity::m_iHealth);
 
-            if (!health)
-            {
-                continue;
-            }
+           // if (!health){continue; }
 
             if (health <= 0)
             {
@@ -85,7 +82,7 @@ DWORD Main(void*)
             {
                 *set_force_jump = 256;
             }
-            else if (!jump_hotkey && force_jump == 65537)
+            else if (!jump_hotkey && in_air)
             {
                 *set_force_jump = 256;
             }
